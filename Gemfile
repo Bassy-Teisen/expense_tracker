@@ -11,3 +11,5 @@ gem 'coderay', '1.1.1'
 gem 'rack-test', '0.7.0'
 
 gem "sinatra", "~> 2.0.8"
+
+gem "puma", "~> 5.6"
