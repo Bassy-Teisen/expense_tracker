@@ -20,6 +20,8 @@ module ExpenseTracker
         end 
 
         it 'records submitted expenses' do
+            # POST coffe, zoo, and groceries expenses here
+            pending 'Need to persist expenses'
             coffee = post_expense(
                 'payee' => 'Starbucks',
                 'amount' => 5.75,
@@ -44,9 +46,8 @@ module ExpenseTracker
             
             # parsed = JSON.parse(last_response.body)
             # expect(parsed).to include('expense_id' => a_kind_of(Integer))
-        end 
-        it 'records submitted expenses' do
-            # POST coffe, zoo, and groceries expenses here
+      
+
 
             get '/expenses/2017-06-10'
             expect(last_response.status).to eq(200)
