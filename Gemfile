@@ -10,6 +10,6 @@ gem 'rspec', '3.6.0'
 gem 'coderay', '1.1.1'
 gem 'rack-test', '0.7.0'
 
-gem "sinatra", "~> 2.0.8"
+gem "sinatra", "~> 2.0.0"
 
 gem "puma", "~> 5.6"
